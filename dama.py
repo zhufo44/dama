@@ -12,7 +12,6 @@ def CalcSign(pd_id, passwd, timestamp):
 
 '''
 	打码平台--斐斐打码   http://www.fateadm.com/user_home.php
-	账号：1126760657@qq.com   密码：123456as
     img: 验证码图片bit流数据
 	imgtype: 验证码类型--具体到平台去找对应数字代码
 	pd_id: 账号id--打码平台可见
@@ -23,7 +22,7 @@ imgtype = '20400'
 def get_captcha(img):
     tm = str(int(time.time()))
     pd_id = '107527'
-    pd_key = 'YyfEg6qpXKegJajUPDKJJ1bvrIzQG9Tq'
+    pd_key = ''
     sign = CalcSign(pd_id,pd_key,tm)
     header = {
         'User-Agent': 'Mozilla/5.0',
