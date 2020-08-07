@@ -3,13 +3,12 @@ from time import sleep
 
 '''
 易码短信平台  http://www.51ym.me/User/Default.aspx
-账号: zhufo44  密码：123456as
 itemid  每一个项目的编号，在平台搜索
 '''
 
 #项目编号--京东金融
 itemid = 16359
-ymtoken = '00899695b25c917c557a6277122427141720568a4601'
+ymtoken = ''
 
 #获取手机号--只返回手机号
 def getphone():
